@@ -1,0 +1,9 @@
+<script src="https://unpkg.com/@bndynet/dist/tooltip.umd.js"></script>
+
+<button id="btn" tooltip="Tooltips display informative text when users hover over, focus on, or tap an element.">My Button</button>
+
+<script>
+  tt.init(); 
+  // Or use
+  // tt.applyTo('#btn');
+</script>
